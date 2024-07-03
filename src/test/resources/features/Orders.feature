@@ -16,7 +16,6 @@ Feature: Store
     Given Dado que me encuentro en la tienda
     When Consulto la orden mediante el id "<ID>"
     Then valido el codigo de respuesta sea 200
-    And imprimo los resultados
     Examples:
       | ID |
       | 1  |

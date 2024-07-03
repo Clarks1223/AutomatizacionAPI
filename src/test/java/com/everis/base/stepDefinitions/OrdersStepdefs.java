@@ -35,8 +35,5 @@ public class OrdersStepdefs {
     public void consultoLaOrdenMedianteElId(String arg0) {
         order.consultarOrden(arg0);
     }
-
-    @And("imprimo los resultados")
-    public void imprimoLosResultados() {
-    }
+    
 }
